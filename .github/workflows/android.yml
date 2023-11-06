@@ -1,16 +1,15 @@
  name: Build and Release
- ​
- on:
+ ​ on:
   push:
     branches:
       - master
-      - "feature/*"
+
     tags:
       - "v*.*.*"
   pull_request:
     branches:
       - master
-      - "feature/*"
+
  ​
  jobs:
   apk:
